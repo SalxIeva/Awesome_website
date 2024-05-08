@@ -1,12 +1,11 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    gap: 8px;
-    font-size: 24px;
+    /* gap: 8px; */
     align-items: center;
     height: 60px;
-    padding: 10px;
-    margin-bottom: 0;
+    padding: 0 30px;
+    margin: 0;
 }
 
 ul {
@@ -20,6 +19,7 @@ ul {
 a {
     padding: 8px; 
     text-decoration: none;
+    font-size: 24px;
 }
 
 .navbar, .heading, .footer {
@@ -33,4 +33,11 @@ a {
     padding: 68px;
 }
 
+.heading h1 {
+    font-size: 48px;
+    font-weight:bolder
+}
 
+.navbar h1 {
+    font-size: 24px;
+}
