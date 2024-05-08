@@ -25,3 +25,9 @@ a {
 .navbar, .heading, .footer {
     background-color: #1F2937;
 }
+
+.heading {
+    display: flex;
+    flex: 1;
+}
+
