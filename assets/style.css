@@ -29,5 +29,8 @@ a {
 .heading {
     display: flex;
     flex: 1;
+    justify-content: space-between;
+    padding: 68px;
 }
+
 
