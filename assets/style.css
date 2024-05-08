@@ -33,11 +33,19 @@ a {
     padding: 68px;
 }
 
-.heading h1 {
-    font-size: 48px;
-    font-weight:bolder
-}
 
 .navbar h1 {
     font-size: 24px;
 }
+
+.heading h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
