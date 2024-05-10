@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome web</title>
+    <link href="./assets/style.css" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
     <!-- navbar -->
     <div class="navbar">
         <h1>Life with pets</h1>
         <nav>
             <ul class="ulist">
-                <li class="item1"><a href="#about">About</a></li>
+                <li class="item1"><a href="#hero">Home</a></li>
                 <li class="item2"><a href="#benefits">Health Benefits</a></li>
-                <li class="item3"><a href="#qoute"></a></li>
+                <li class="item3"><a href="#quote">Quote</a></li>
                 <li class="item4"><a href="#help">Rescue</a></li>
 
             </ul>
@@ -22,49 +24,58 @@
 
     <!-- heading -->
     <div class="heading">
-        <h1 id="about">How pets change people's lives</h1>
-        <p>Nothing compares to the joy of coming home to a loyal companion. The unconditional love of a pet can do more than keep you company.</p>
-        <button>Sign up</button>
-        <img src="https://cdn.pixabay.com/photo/2024/04/05/20/51/ai-generated-8678207_1280.jpg" alt="dog with birthday hat">
+        <div class="left">
+            <h1 id="hero">Pets change people's lives!</h1>
+            <p class="secondary">Nothing compares to the joy of coming home to a loyal companion. The unconditional love of a pet can do more than keep you company.</p>
+            <button>Sign up</button>
+        </div>
+        <img src="https://cdn.pixabay.com/photo/2024/04/05/20/51/ai-generated-8678207_1280.jpg" alt="dog with birthday hat" width="600px" class="mainDoggy">
     </div>
 
     <!-- 1st section -->
     <div class="section1">
         <h2 id="benefits">Pets also has a lot of health benefits</h2>
-        <div class="card">
-            <img src="https://cdn.pixabay.com/photo/2020/10/31/05/47/burnout-5700318_1280.jpg" alt="burnout flame person" width="300px">
-            <p>They reduce stress, anxiety and depression.</p>
-        </div>
-        <div class="card">
-            <img src="https://cdn.pixabay.com/photo/2017/12/26/16/43/wood-3040859_960_720.jpg" alt="rustic heart in wooden window frame" width="300px">
-            <p>They can improve heart problems.</p>
-        </div>
-        <div class="card">
-            <img src="https://cdn.pixabay.com/photo/2017/09/03/17/26/woman-2711279_1280.jpg" alt="woman walking with dog and bike sunset" width="300px">
-            <p>They get us moving — even when we don't want to — and anchor us in the present.</p>
-        </div>
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1502888959209-5ac0c5319f94?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Woman with her dog sitting in the grass" width="300px">
-            <p>They ease loneliness and boost oxytocin — the love hormone.</p>
+        <div class="cards">
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2020/10/31/05/47/burnout-5700318_1280.jpg" alt="burnout flame person" width="150px" height="110px">
+                <p>They reduce stress, anxiety and depression.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2017/12/26/16/43/wood-3040859_960_720.jpg" alt="rustic heart in wooden window frame" width="150px" height="110px">
+                <p>They can improve heart problems.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2017/09/03/17/26/woman-2711279_1280.jpg" alt="woman walking with dog and bike sunset" width="150px" height="110px">
+                <p>They get us moving — even when we don't want to — and anchor us in the present.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1502888959209-5ac0c5319f94?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Woman with her dog sitting in the grass" width="150px" height="110px">
+                <p>They ease loneliness and boost oxytocin — the love hormone.</p>
+            </div>
         </div>
     </div>
 
     <!-- 2nd section -->
     <div class="section2">
-        <h3 id="qoute">“I never married because there was no need. I have three pets at home which answer the same purpose as a husband. I have a dog which growls every morning, a parrot which swears all afternoon, and a cat that comes home late at night.”</h3>
-        <p>Marie Corelli</p>
+        <h3 id="quote">“I never married because there was no need. I have three pets at home which answer the same purpose as a husband. I have a dog which growls every morning, a parrot which swears all afternoon, and a cat that comes home late at night.”</h3>
+        <p class="author">- Marie Corelli</p>
     </div>
 
     <!-- 3rd section -->
     <div class="section3">
-        <h3 id="help">But it's not just humans that needs help...</h3>
-        <p>Click below to sign up and rescue a pet to help your and their wellbeing!</p>
-        <button class="signUp"></button>
+        <div class="help-container">
+            <div class="left-help">
+                <h3 id="help">But it's not just humans that needs help...</h3>
+                <p>Click on the right to sign up and rescue a pet to help your and their wellbeing!</p>
+            </div>
+            <button class="signUp">Sign up</button>
+        </div>
     </div>
 
     <!-- footer -->
     <div class="footer">
         <p>Copyright @ The Odin Project 2024</p>
     </div>
+</div>
 </body>
 </html>
