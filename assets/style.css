@@ -13,7 +13,7 @@ ul {
     list-style-type: none;
 }
 
-.navbar, a {
+.navbar, a, .footer {
     color: #F9FAF8;
 }
 a {
@@ -163,4 +163,11 @@ body {
 .signUp {
     height: 30px;
     border: 1px solid #ffffff;
+}
+
+.footer {
+    padding: 10px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
