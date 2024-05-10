@@ -146,7 +146,21 @@ body {
     justify-content: space-between;
     background-color: #3882F6;
     color: #ffffff;
+    padding: 40px 150px;
+    align-items: center;
+    border-radius: 8px;
 }
-/* .left-help {
-    margin-right: auto;
-} */
+
+#help {
+    padding: 0;
+    margin: 0;
+}
+
+.left-help p {  
+    margin: 4px 0;
+}
+
+.signUp {
+    height: 30px;
+    border: 1px solid #ffffff;
+}
